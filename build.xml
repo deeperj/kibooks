@@ -27,10 +27,8 @@
   </target>
   <target name="sed" depends="compile">
     <exec executable="sed">
-      <arg value="-re"/>
+      <arg value="-i"/>
       <arg value="'s/^    \&lt;base href=\&quot;\//    \&lt;base href=\&quot;\/u1273400\/tmp\/dbclass\/dist\//'"/>
-      <arg value="publishable/BlazorApp1/dist/index.html"/>
-      <arg value=">"/>
       <arg value="publishable/BlazorApp1/dist/index.html"/>
     </exec>
   </target>
