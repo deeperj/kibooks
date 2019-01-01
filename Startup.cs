@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Blazor.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BlazorApp1
+namespace kibooks
 {
     public class Startup
     {

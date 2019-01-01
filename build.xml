@@ -6,7 +6,7 @@
     </target>
     <target name="dist" depends="sed" description="Build distributable">
       <scp todir="u1273400:k_-_monger@selene.hud.ac.uk:/stud/u1273400/tmp/dbclass/dist/">
-        <fileset dir="publishable/BlazorApp1/dist"/>
+        <fileset dir="publishable/kibooks/dist"/>
       </scp>
     </target>
     <target name="down" depends="compile" description="Build distributable">
@@ -29,7 +29,7 @@
     <exec executable="sed">
       <arg value="-i"/>
       <arg value="'s/^    \&lt;base href=\&quot;\//    \&lt;base href=\&quot;\/u1273400\/tmp\/dbclass\/dist\//'"/>
-      <arg value="publishable/BlazorApp1/dist/index.html"/>
+      <arg value="publishable/kibooks/dist/index.html"/>
     </exec>
   </target>
 </project>

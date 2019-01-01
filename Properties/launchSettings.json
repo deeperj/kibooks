@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "BlazorApp1": {
+    "kibooks": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
